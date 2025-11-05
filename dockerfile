@@ -1,5 +1,5 @@
 # Step 1: Use an official JDK image to build and run the app
-FROM openjdk:17-jdk-slim
+FROM maven:3.9.6-eclipse-temurin-17 AS build
 
 # Step 2: Copy the JAR file from Jenkins build output
 COPY target/*.jar app.jar
