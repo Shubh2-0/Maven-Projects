@@ -1,92 +1,63 @@
-# Maven Project Creation Guide
+<div align="center">
 
-![image](https://github.com/Shubh2-0/Maven-Projects/assets/112773220/418bf9c4-1df0-47ce-9e24-d036f846c471)
+# 🔧 Maven Projects
 
+[![GitHub stars](https://img.shields.io/github/stars/Shubh2-0/Maven-Projects?style=for-the-badge&logo=github&color=yellow)](https://github.com/Shubh2-0/Maven-Projects/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Shubh2-0/Maven-Projects?style=for-the-badge&logo=github&color=blue)](https://github.com/Shubh2-0/Maven-Projects/network/members)
 
-This GitHub repository contains two Maven projects: Maven_First_Project_Demo and Second_Demo. The following steps will guide you through the process of creating a Maven project.
+### Learn Maven Build Tool
 
-## Prerequisites
+*From project setup to dependency management*
 
-To create and run Maven projects, ensure that you have the following installed:
+</div>
 
-- Java Development Kit (JDK)
-- Maven
+---
 
-## Step 1: Clone the Repository
+## 🎯 About
 
-Clone this repository to your local machine using the following command:
+Collection of **Maven projects** to help you understand project configuration, dependency management, and build lifecycle.
+
+## 📁 Projects
+
+- **Maven_First_Project_Demo** - Getting started with Maven
+- **Second_Demo** - Advanced Maven configurations
+
+## 💡 Maven Basics
+
+```xml
+<!-- pom.xml structure -->
+<project>
+    <groupId>com.example</groupId>
+    <artifactId>my-app</artifactId>
+    <version>1.0.0</version>
+    
+    <dependencies>
+        <!-- Add dependencies here -->
+    </dependencies>
+</project>
+```
+
+## 🔄 Maven Lifecycle
 
 ```
-git clone <repository-url>
+validate → compile → test → package → verify → install → deploy
 ```
 
-## Step 2: Maven_First_Project_Demo
+## 🛠️ Commands
 
-The Maven_First_Project_Demo project is a sample Maven project that you can use as a starting point. Follow the steps below to set it up:
-
-1. Open a terminal or command prompt and navigate to the project's directory:
-
-   ```
-   cd Maven_First_Project_Demo
-   ```
-
-2. Build the project using Maven:
-
-   ```
-   mvn clean install
-   ```
-
-3. Run the project:
-
-   ```
-   mvn exec:java
-   ```
-
-4. Congratulations! You have successfully created and executed the Maven_First_Project_Demo project.
-
-## Step 3: Second_Demo
-
-The Second_Demo project is another Maven project in this repository. Follow the steps below to set it up:
-
-1. Open a terminal or command prompt and navigate to the project's directory:
-
-   ```
-   cd Second_Demo
-   ```
-
-2. Build the project using Maven:
-
-   ```
-   mvn clean install
-   ```
-
-3. Run the project:
-
-   ```
-   mvn exec:java
-   ```
-
-4. Fantastic! You have now created and executed the Second_Demo project.
-
-## Conclusion
-
-You have learned how to create and run Maven projects using this repository. Feel free to explore the code, make changes, and create your own Maven projects based on these examples.
+```bash
+mvn clean          # Clean target directory
+mvn compile        # Compile source code
+mvn test           # Run tests
+mvn package        # Create JAR/WAR
+mvn install        # Install to local repo
+```
 
 ## 📬 Contact
 
-If you want to contact me, you can reach me through below handles.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shubham-bhati-787319213/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shubhambhati226@gmail.com)
 
- <p align="left">
-  <a href="https://www.linkedin.com/in/shubham-bhati-787319213/" target="_blank"><img align="center" src="https://skillicons.dev/icons?i=linkedin" width="40px" alt="linkedin" /></a>&emsp;
-  <a title="shubhambhati226@gmail.com" href="mailto:shubhambhati226@gmail.com" target="_blank"><img align="center"  src="https://cdn-icons-png.flaticon.com/128/888/888853.png"  width="40px"   alt="mail-me" /></a>&emsp;
-  <a href="https://wa.me/+916232133187" target="blank"><img align="center" src="https://media2.giphy.com/media/Q8I2fYA773h5wmQQcR/giphy.gif" width="40px"  alt="whatsapp-me" /></a>&emsp;	
- </p>
+---
 
-<br>
-
-<div align="center">
-  <strong>🎉 Happy coding! 🚀
-</strong>
-</div>
-
-
+**Keywords:** Maven Java Build-Tool Dependency-Management POM Lifecycle
